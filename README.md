@@ -1,5 +1,4 @@
 # FullstackEmployee ![version](https://img.shields.io/badge/Version-0.1.0-orange.svg)
-yet processing...
 
 
 ![success](https://img.shields.io/badge/Connection-success-informational.svg)
