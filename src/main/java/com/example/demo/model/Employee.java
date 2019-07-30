@@ -1,15 +1,12 @@
 package com.example.demo.model;
 
-import javax.persistence.Column;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 public class Employee {
 
     @Id
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name="id")
     private long id;
 
@@ -25,14 +22,11 @@ public class Employee {
     @Column(name="phone")
     private String phone;
 
-    @Column(name="active")
-    private boolean active;
-
     public Employee(){
         super();
     }
 
-    public Employee(String name, String lastName, String email, String phone, boolean active){
+    public Employee(String name, String lastName, String email, String phone){
         super();
         this.name=name;
         this.lastName=lastName;
@@ -63,9 +57,11 @@ public class Employee {
     public void setLastName(String lastName){
         this.lastName=lastName;
     }
+
     public String getEmail(){
         return email;
     }
+
     public void setEmail(String email){
         this.email = email;
     }
@@ -73,6 +69,7 @@ public class Employee {
     public String getPhone(){
         return phone;
     }
+
     public void setPhone(String phone){
         this.phone = phone;
     }
