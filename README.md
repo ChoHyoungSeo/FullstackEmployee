@@ -13,7 +13,7 @@ yet processing...
 * Thymeleaf
 * Javascript/Ajax/Jquery
 * Spring Boot (Project Type: Maven Project)
-* JAVA8
+* JAVA 8 or higher
 * Hibernate/JPA
 * MySQL/MariaDB
 
