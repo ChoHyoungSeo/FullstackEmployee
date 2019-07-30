@@ -17,6 +17,11 @@ yet processing...
 * Hibernate/JPA
 * MySQL/MariaDB
 
+
+# Technical Architecture
+![badge](./img/TechnicalArchitecture.PNG)
+
+
 ### Database Migration [Flyway](https://flywaydb.org/)
 
 
@@ -28,11 +33,15 @@ yet processing...
 * TimeZone
 * SQL name
 
+
 # Screenshot
 ## Entire UI
 ![badge](./img/UI.png)
+
 ## Search engine
 ![badge](./img/SearchEngine.png)
+
+
 # API Documentation
 [Click here](API.md) for API documentation
 
