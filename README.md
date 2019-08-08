@@ -9,7 +9,7 @@
 * Apache Tomcat(WAS)
 * Bootstrap 4 
 * Dart Sass
-* Thymeleaf
+* Thymeleaf/HTML5
 * Javascript/Ajax/Jquery
 * Spring Boot (Project Type: Maven Project)
 * JAVA 8 or higher
@@ -31,6 +31,7 @@
 * hibernateDialect
 * TimeZone
 * SQL name
+* Server-side_Processing/PHP
 
 
 # Screenshot
